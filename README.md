@@ -1,4 +1,4 @@
-# mod_pydoc
+# prettypydoc
 Attempt at modernizing the look of html pages served by pydoc
 
 Pydoc is great - no, make that **fantastic**.

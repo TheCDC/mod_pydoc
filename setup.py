@@ -1,13 +1,13 @@
 from setuptools import setup
 
-setup(name='mod_pydoc',
-      author='aroberge',
+setup(name='prettypydoc',
+      author='aroberge and thecdc',
       author_email='',
       version='0.1.1',
       description="""Prettier pydoc.""",
-      long_description="",
-      url='https://github.com/aroberge/mod_pydoc',
-      packages=['mod_pydoc'],
+      long_description="Forked from https://github.com/aroberge/mod_pydoc",
+      url='https://github.com/TheCDC/prettypydoc',
+      packages=['prettypydoc'],
       install_requires=[],
-      scripts=["bin/mod_pydoc"],
+      scripts=["bin/prettypydoc"],
       )
