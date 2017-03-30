@@ -8,7 +8,7 @@ for the pages served in a browser by pydoc.
 The original pydoc module has hard-coded values for color choices.
 This new version, based on html5, uses css styling.
 
-To test with the default (minimal styling):
+To test with the default (fancy styling):
 
     python mod_pydoc.py -b
 
