@@ -10,19 +10,19 @@ This new version, based on html5, uses css styling.
 
 To test with the default (fancy styling):
 
-    python mod_pydoc.py -b
+    prettypydoc.py -b
 
 To use a user-defined css file:
 
-    python mod_pydoc.py -b -c <path_relative_to_cwd>
+    prettypydoc.py -b -c <path_relative_to_cwd>
 
 For example, to see a css close approximation of the original css:
 
-    python mod_pydoc.py -b -c classic
+    prettypydoc.py -b -c classic
 
 A more interesting example has been provided by u8y7541:
 
-    python mod_pydoc.py -b -c custom.css
+    prettypydoc.py -b -c custom.css
 
 It looks like the following:
 
@@ -33,4 +33,4 @@ Finally, pydoc_test.css is included as an example of a very slightly
 customized file (the background color is different from the new default).
 To run it:
 
-    python mod_pydoc.py -b -c pydoc_test.css
+    prettypydoc.py -b -c pydoc_test.css
